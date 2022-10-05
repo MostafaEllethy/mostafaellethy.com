@@ -1,0 +1,10 @@
+version: "3"
+services:
+  mostafaellethy:
+    build: .
+    network_mode: bridge
+    ports:
+      - "80:80"
+    environment:
+      - VIRTUAL_HOST=mostafaellethy.com
+      - LETSENCRYPT_HOST=mostafaellethy.com
