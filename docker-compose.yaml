@@ -1,6 +1,7 @@
 version: "3"
 services:
   mostafaellethy:
+    container_name: mostafaellethy
     build: .
     network_mode: bridge
     environment:
