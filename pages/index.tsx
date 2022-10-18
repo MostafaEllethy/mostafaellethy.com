@@ -22,13 +22,13 @@ const LINKS = [
 
 const Home: NextPage = () => {
   return (
-    <div className="p-2">
+    <>
       <Head>
         <title>Mostafa Ellethy</title>
         <meta name="description" content="Mostafa Ellethy" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="flex flex-1 h-screen flex-col items-center justify-center gap-3 sm:gap-5 md:gap-7">
+      <main className="flex flex-1 h-screen flex-col items-center justify-center gap-3 sm:gap-5 md:gap-7 px-2">
         <h1 className="text-center font-bold text-[2.825rem] sm:text-6xl md:text-7xl">
           Mostafa Ellethy
         </h1>
@@ -46,7 +46,7 @@ const Home: NextPage = () => {
           ))}
         </section>
       </main>
-    </div>
+    </>
   );
 };
 
